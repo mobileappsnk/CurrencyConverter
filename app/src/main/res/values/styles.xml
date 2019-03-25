@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SEARCH_PAGE_HEADER_TEXT">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/LIGHT_GREY_TEXT</item>
+    </style>
+
+    <style name="SEARCH_PAGE_CURRENCY_CODE_TEXT">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/BLUE</item>
+    </style>
+
+    <style name="SEARCH_PAGE_STATION_NAME_TEXT">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff0eff0</item>
+    </style>
+
+</resources>

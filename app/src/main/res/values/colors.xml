@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="LIGHT_GREY_TEXT">#ffb8b8b8</color>
+    <color name="WHITE">#ffffffff</color>
+    <color name="BLACK">#ff000000</color>
+    <color name="BLUE">#ff081e74</color>
+    <color name="GREY_LISTVIEW">#ff222121</color>
+    <color name="GOLD_BTN">#FFCC33</color>
+    <color name="GOLD_BTN_CLICK">#FFDF00</color>
+</resources>

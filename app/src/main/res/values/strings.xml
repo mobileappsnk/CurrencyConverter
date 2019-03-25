@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="convert_failure">Failed to convert. Please try again.</string>
+    <string name="input_amount_hint">Currency Amount</string>
+    <string name="currency_converter_message">World\'s Best Currency Converter.</string>
+    <string name="convert">Convert</string>
+</resources>

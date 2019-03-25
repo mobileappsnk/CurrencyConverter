@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="42.669983dip"
+    android:background="@drawable/search_view_borders"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/GREY_LISTVIEW"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="100.0" >
+
+        <LinearLayout
+            android:layout_width="65.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="10.0"
+            android:background="@color/WHITE" >
+
+            <TextView
+                android:id="@+id/TEXT_CURRENCY_CODE"
+                style="@style/SEARCH_PAGE_CURRENCY_CODE_TEXT"
+                android:layout_width="fill_parent"
+                android:layout_height="30.669983dip"
+                android:layout_margin="5.0dip"
+                android:gravity="center"
+                android:text="INR" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="265.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="90.0"
+            android:background="@color/GREY_LISTVIEW"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/SEARCH_PAGE_CURRENCY_NAME_TEXT"
+                style="@style/SEARCH_PAGE_STATION_NAME_TEXT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10.0dip"
+                android:gravity="left|center"
+                android:text="INDIA" />
+        </LinearLayout>
+    </LinearLayout>
+
+</TableRow>
