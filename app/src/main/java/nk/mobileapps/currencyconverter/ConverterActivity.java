@@ -33,6 +33,8 @@ import org.json.JSONObject;
 import java.sql.Date;
 import java.sql.Timestamp;
 
+import nk.mobileapps.chartlib.Helper;
+
 public class ConverterActivity extends Activity implements OnClickListener {
 
     public static final int FROM_REQUEST_CODE = 11, TO_REQUEST_CODE = 22;
@@ -56,6 +58,7 @@ public class ConverterActivity extends Activity implements OnClickListener {
                 .loadAnimation(this, R.anim.slide_in_left);
         animSlideRight = AnimationUtils.loadAnimation(this,
                 R.anim.slide_in_right);
+        String lib_version = Helper.lib_versio;
         findViews();
     }
 
@@ -196,7 +199,7 @@ public class ConverterActivity extends Activity implements OnClickListener {
                     tv_currencyresultv.setText(resultFinal);
                     Timestamp ts = new Timestamp(response.getLong("timestamp"));
                     Date time = new Date(ts.getTime());
-                    tv_lastupdate.setText("Last updated on " + date );
+                    tv_lastupdate.setText("Last updated on " + date);
                     runAnimation(android.R.anim.fade_in, tv_lastupdate);
                 } catch (JSONException e) {
                     e.printStackTrace();
