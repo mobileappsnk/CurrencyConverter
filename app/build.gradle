@@ -16,6 +16,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions 'ver'
+    productFlavors {
+        free {
+            dimension = 'ver'
+            buildConfigField "String", "BASE_URL", "\"http://data.fixer.io/api/latest?access_key=a7089eae57c587163218926f7d7990b1\""
+        }
+    }
 }
 
 dependencies {

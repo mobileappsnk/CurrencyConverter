@@ -178,11 +178,11 @@ public class ConverterActivity extends Activity implements OnClickListener {
     }
 
     private void getOnlineMoneyData(final Context context, final String fromCurrencyCode, final String toCurrencyCode) {
-        //http://data.fixer.io/api/latest?access_key=a7089eae57c587163218926f7d7990b1&symbols=USD,AUD,CAD,PLN,MXN&format=1
-        //"http://data.fixer.io/api/lastest?access_key=a7089eae57c587163218926f7d7990b1&symbols=fromCurrencyCode,toCurrencyCode&format=1";
-        String url = "http://data.fixer.io/api/latest?access_key=a7089eae57c587163218926f7d7990b1";
+        //http://data.fixer.io/api/latest?access_key=a7089eae57c587163218926f7d7990b1nk&symbols=USD,AUD,CAD,PLN,MXN&format=1
+        //"http://data.fixer.io/api/lastest?access_key=a7089eae57c587163218926f7d7990b1nk&symbols=fromCurrencyCode,toCurrencyCode&format=1";
+        //String url = "http://data.fixer.io/api/latest?access_key=a7089eae57c587163218926f7d7990b1nk";
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.GET,
-                url, null, new Response.Listener<JSONObject>() {
+                BuildConfig.BASE_URL, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
                 closeProgressDialog();
